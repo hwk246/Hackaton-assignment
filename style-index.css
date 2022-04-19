@@ -112,7 +112,7 @@ iframe {
   grid-area: examples;
   display: flex;
   justify-content: space-around;
-  border: 4px solid var(--footer-background);
+  border: 4px solid var(--header-background);
   border-radius: 5px;
   background: var(--examples-background);
 }
