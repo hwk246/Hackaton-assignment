@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style-contact.css">
+  <title>Contact</title>
+</head>
+
+<body>
+  <div class="gridcontainer">
+
+    <header>
+
+      <img src="./img/headerpicture.png" alt="">
+
+      <div class="header-text">
+        <h1>3D Printing</h1>
+        <p>Layer by Layer</p>
+      </div>
+
+      <div class="button">
+        <button><a href="./index.html">Home</a></button>
+        <button><a href="./news.html">News</a></button>
+        <button><a href="./contact.html">Contact</a></button>
+      </div>
+      
+    </header>
+
+    <main>
+      <h1>Contact</h1>
+      <form action="#">
+        <div class="form-container">
+
+          <div class="naw">
+            <h2>personal</h2>
+            <hr>
+            <div>
+              <label for="fname">First Name:
+                <input type="text" id="fname">
+              </label>
+            </div>
+            <div>
+              <label for="lname">Last Name:
+                <input type="text" id="lname">
+              </label>
+            </div>
+            <div>
+              <label for="email">E-mail:
+                <div><input type="email" id=""></div>
+              </label>
+            </div>
+            <label for="#">Gender
+              <div class="g-input"><input type="radio" name="gender" value="male">Male</div>
+              <div><input type="radio" name="gender" value="female">Female</div>
+              <div><input type="radio" name="gender" value="nonbinary">Non Binary</div>
+            </label>
+          </div>
+
+          <div class="preferences">
+            <h2>preferences</h2>
+            <hr>
+            <div><label for="color">Favorite printing color:
+                <input type="color" id="color"></label>
+            </div>
+            <div><label for="p-type">Use 3D printer:
+                <select name="printer" id="p-type">
+                  <option>At Home</option>
+                  <option>At Work</option>
+                  <option>Home and Work</option>
+                </select>
+              </label>
+            </div>
+            <div>
+              <label for="">Send 3D print Image:
+                <input type="file">
+              </label>
+            </div>
+          </div>
+
+          <div class="comment">
+            <h2>Comment</h2>
+            <hr>
+            <label for="comment"> Comment:</label>
+            <textarea name="text" id="comment" cols="30" rows="10"></textarea>
+          </div>
+
+          <div class="btn-contact">
+            <button value="Reset" type="reset">Reset</button>
+            <button value="Send" type="submit">Submit</button>
+          </div>
+
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <p>Sponsors</p>
+      <img src="img/github.jpg" alt="github">
+      <img src="./img/mcd.jpg" alt="macDonalds">
+      <img src="./img/netlify.jpg" alt="netlify">
+      <img src="./img/wincadamy.jpg" alt="wincadamy">
+    </footer>
+  </div>
+</body>
+
+</html>
